@@ -25,13 +25,13 @@ export default function CardMovie() {
   }
 
   return (
-    <div className="flex justify-center lg:justify-around gap-3 lg:gap-8 items-center w-[90%] lg:w-[80%] m-auto h-max  p-2 mt-6 flex-wrap mb-10">
+    <div className="flex justify-center gap-3 lg:justify-around lg:gap-8 items-center w-[100%] lg:w-[80%] m-auto h-max  p-2 mt-6 flex-wrap mb-10">
       {dataTampil.length === 0 ? (
         <p>film tidak ada</p>
       ) : (
         dataTampil.map((movie, i) => {
           return (
-            <div className="card border rounded-lg w-[150px] lg:w-[200px] h-max flex gap-1 p-1 flex-col justify-center items-center" key={i}>
+            <div className="card border rounded-lg w-[150px] lg:w-[200px] h-[350px] flex gap-1 p-1 flex-col justify-center items-center" key={i}>
               <div className="text-[.8rem] lg:text-[.9rem] text-center">
                 <p>{movie.title}</p>
               </div>
