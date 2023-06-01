@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blur {
+    backdrop-filter: blur(5px);
+    background-color: rgba(27, 26, 26, 0.989);
+}
+
+body {
+    background-color: rgba(27, 26, 26, 0.989);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
