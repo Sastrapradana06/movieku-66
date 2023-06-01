@@ -13,7 +13,6 @@ export function App() {
           <SearchMovie />
           <BtnMovie />
           <CardMovie />
-          {/* <DetailMovie /> */}
         </div>
     );
 }

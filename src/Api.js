@@ -1,6 +1,4 @@
 
-// const baseUrl = process.env.REACT_APP_BASEURL
-
 
 export async function popularMovie() {
     const res = await fetch('https://api.themoviedb.org/3/movie/popular?api_key=4a6bc38820f783b70303a7c69bb7ccc7')
